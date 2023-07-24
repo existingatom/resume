@@ -1,0 +1,89 @@
+body {
+    font-family: monospace;
+    font-style: normal;
+    font-size: small;
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.flex-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon {
+    padding: 20px;
+}
+
+.languages {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    column-gap: 100px;
+}
+
+.languages:nth-child(2) {
+    align-self: flex-start;
+}
+
+.photo img {
+    border-radius: 50%;
+}
+
+.one {
+    width: 250px;
+    border: 1.5px solid grey;
+    padding: 25px;
+    margin: 20px;
+    text-align: justify;
+    border-radius: 25px;
+}
+
+.two {
+    width: 250px;
+    border: 1.5px solid grey;
+    padding: 25px;
+    margin: 20px;
+    text-align: justify;
+    border-radius: 25px;
+}
+
+.three {
+    width: 250px;
+    border: 1.5px solid grey;
+    padding: 25px;
+    margin: 20px;
+    text-align: justify;
+    border-radius: 25px;
+}
+
+.four {
+    width: 250px;
+    border: 1.5px solid grey;
+    padding: 25px;
+    margin: 20px;
+    text-align: justify;
+    border-radius: 25px;
+}
+
+.clubs {
+    display: flex;
+}
+
+.work {
+    text-decoration: none;
+    color: black;
+}
+
+.dot {
+    text-decoration-style: dotted;
+}
